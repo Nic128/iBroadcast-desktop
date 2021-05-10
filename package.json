@@ -24,7 +24,7 @@
     "@commitlint/config-conventional": "^12.1.1",
     "commitlint": "^12.1.1",
     "electron": "^12.0.7",
-    "electron-builder": "^22.11.1",
+    "electron-builder": "22.10.5",
     "eslint": "^7.26.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
