@@ -1,0 +1,23 @@
+{
+  "name": "iBroadcast-desktop",
+  "version": "0.0.1",
+  "description": "Election wrapper for iBroadcast web player",
+  "main": "./index.js",
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "",
+  "license": "MIT",
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  },
+  "devDependencies": {
+    "electron": "^12.0.7",
+    "electron-builder": "^22.11.1"
+  }
+}
