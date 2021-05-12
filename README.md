@@ -5,7 +5,7 @@ Election wrapper for iBroadcast web player.
 ## Support
 
 - Mac ✅
-- Windows ❌ (TODO)
+- Windows ✅
 
 ## Installation
 
