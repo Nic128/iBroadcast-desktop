@@ -8,8 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        # os: [macos-latest, windows-latest] # To enable when adding windows support
-        os: [macos-latest]
+        os: [macos-latest, windows-latest]
 
     steps:
       - name: Check out Git repository
@@ -19,6 +18,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
+
+      - name: Install modules
+        run: npm install
+
+      - name: Run Lint
+        run: npm run lint
 
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1
