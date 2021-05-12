@@ -2,10 +2,13 @@
 
 Election wrapper for iBroadcast web player.
 
+[https://media.ibroadcast.com](https://media.ibroadcast.com)
+
 ## Support
 
 - Mac ✅
 - Windows ✅
+- Ubuntu ✅
 
 ## Installation
 
