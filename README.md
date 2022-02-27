@@ -8,6 +8,7 @@ Election wrapper for iBroadcast web player.
 
 - Mac ✅
 - Windows ✅
+- Ubuntu ✅
 
 ## Installation
 

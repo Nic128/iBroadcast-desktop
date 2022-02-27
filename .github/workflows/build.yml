@@ -7,8 +7,7 @@ jobs:
 
     strategy:
       matrix:
-        # os: [macos-latest, windows-latest, ubuntu-latest] # No need for ubuntu for now
-        os: [macos-latest, windows-latest]
+        os: [macos-latest, windows-latest, ubuntu-latest]
 
     steps:
       - name: Check out Git repository
@@ -25,10 +24,10 @@ jobs:
       - name: Run Lint
         run: npm run lint
 
-      # - name: Install Snapcraft
-      #   uses: samuelmeuli/action-snapcraft@v1
-      #   # Only install Snapcraft on Ubuntu
-      #   if: startsWith(matrix.os, 'ubuntu')
+      - name: Install Snapcraft
+        uses: samuelmeuli/action-snapcraft@v1
+        # Only install Snapcraft on Ubuntu
+        if: startsWith(matrix.os, 'ubuntu')
 
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1
