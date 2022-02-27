@@ -1,6 +1,6 @@
 {
   "name": "iBroadcast-desktop",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Election wrapper for iBroadcast web player",
   "main": "./index.js",
   "scripts": {
